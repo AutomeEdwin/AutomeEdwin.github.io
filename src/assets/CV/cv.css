@@ -1,0 +1,68 @@
+body {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  margin: 0;
+  height: 100%;
+}
+
+body > div {
+  padding: 1em;
+}
+
+div.information > section {
+  height: 100%;
+}
+
+h1,
+h3 {
+  margin: 0.33em;
+}
+
+img {
+  width: 1em;
+}
+
+.information {
+  background-color: aqua;
+}
+
+.grid-container-2col-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-container-2col {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.grid-container-rows {
+  grid-template-rows: 2.5em 2.5em;
+}
+
+.grid-container-3col {
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+  margin-left: 1em;
+  justify-items: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.working-years {
+  float: right;
+}
+
+.working-description {
+  margin-left: 1em;
+}
