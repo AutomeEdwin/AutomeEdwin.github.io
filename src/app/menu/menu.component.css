@@ -1,0 +1,8 @@
+:host ::ng-deep .menu.p-tabmenu {
+  margin: auto;
+  width: fit-content;
+}
+
+:host ::ng-deep .menu.p-tabmenu .p-tabmenuitem {
+  margin: 0em 3em 0em 3em;
+}
