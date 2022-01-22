@@ -1,0 +1,14 @@
+.main-description {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+img {
+  width: 15em;
+  height: 15em;
+  background-color: blueviolet;
+}
+
+h1 {
+  color: var(--primary-color);
+}
