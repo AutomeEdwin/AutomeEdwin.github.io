@@ -3,10 +3,14 @@
   grid-template-columns: auto auto;
 }
 
+.description-text {
+  padding: var(--content-padding);
+}
+
 img {
   width: 15em;
   height: 15em;
-  background-color: blueviolet;
+  padding: var(--content-padding);
 }
 
 h1 {
