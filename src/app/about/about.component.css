@@ -11,6 +11,7 @@ img {
   width: 15em;
   height: 15em;
   padding: var(--content-padding);
+  border-radius: 50%;
 }
 
 h1 {
