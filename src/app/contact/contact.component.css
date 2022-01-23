@@ -1,0 +1,16 @@
+a {
+  padding: var(--content-padding);
+}
+
+img {
+  background-color: var(--surface-800);
+  height: 5em;
+  width: 5em;
+}
+
+.links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
